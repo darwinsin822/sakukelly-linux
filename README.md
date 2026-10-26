@@ -1,6 +1,31 @@
-# Sakukelly Music v6.5.0 (Release Candidate)
+# Sakukelly Music v6.5.2 para Linux
+
+[![Latest Release](https://img.shields.io/github/v/release/darwinsin822/sakukelly-linux?style=for-the-badge&labelColor=0d1117)](https://github.com/darwinsin822/sakukelly-linux/releases)
+[![License](https://img.shields.io/github/license/darwinsin822/sakukelly-linux?style=for-the-badge&labelColor=0d1117)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Linux_(Debian_|_Ubuntu_|_Mint)-blue.svg?style=for-the-badge&labelColor=0d1117)](https://github.com/darwinsin822/sakukelly-linux)
 
 Reproductor de música avanzado híbrido (local y streaming) escrito en Python 3 con PyQt6, QtMultimedia, `yt-dlp` y `ffmpeg`. Diseñado con una interfaz moderna glassmorphic estilo Apple Music, sincronización de letras a 30 FPS, normalización de volumen ReplayGain (EBU R128), soporte MPRIS D-Bus e instancia única IPC.
+
+---
+
+## 📸 Capturas de Pantalla
+
+<div align="center">
+
+### 🎵 Colección & Reproductor con Espectro de Audio
+<img src="./assets/screenshots/screenshot_collection.png" alt="Colección de música y reproductor con visualizador" width="95%" style="border-radius: 8px; margin-bottom: 16px;" />
+
+<br/>
+
+### 🟢 Integración Spotify & Descargador de Playlists
+<img src="./assets/screenshots/screenshot_spotify.png" alt="Spotify y servicios de descarga integrados" width="95%" style="border-radius: 8px; margin-bottom: 16px;" />
+
+<br/>
+
+### 🔴 Búsqueda y Streaming Directo de YouTube
+<img src="./assets/screenshots/screenshot_youtube.png" alt="Búsqueda y streaming en tiempo real de YouTube" width="95%" style="border-radius: 8px; margin-bottom: 16px;" />
+
+</div>
 
 ---
 
