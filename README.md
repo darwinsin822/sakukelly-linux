@@ -1,8 +1,14 @@
 # Sakukelly Music v6.5.2 para Linux
 
+[![Descargar .deb](https://img.shields.io/badge/Descargar%20Sakukelly%20.deb-v6.5.2%20(Linux%20Mint%20%2F%20Ubuntu)-1DB954?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/darwinsin822/sakukelly-linux/releases/latest/download/sakukelly_6.5.2-1_all.deb)
 [![Latest Release](https://img.shields.io/github/v/release/darwinsin822/sakukelly-linux?style=for-the-badge&labelColor=0d1117)](https://github.com/darwinsin822/sakukelly-linux/releases)
 [![License](https://img.shields.io/github/license/darwinsin822/sakukelly-linux?style=for-the-badge&labelColor=0d1117)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Linux_(Debian_|_Ubuntu_|_Mint)-blue.svg?style=for-the-badge&labelColor=0d1117)](https://github.com/darwinsin822/sakukelly-linux)
+
+> 🐧 **¿Quieres instalar Sakukelly Music en tu PC Linux?**  
+> 👉 **[Descarga Directa del Instalador .deb (3.1 MB)](https://github.com/darwinsin822/sakukelly-linux/releases/latest/download/sakukelly_6.5.2-1_all.deb)** *(Compatible con Linux Mint, Ubuntu y Debian — doble clic para instalar)*
+
+---
 
 Reproductor de música avanzado híbrido (local y streaming) escrito en Python 3 con PyQt6, QtMultimedia, `yt-dlp` y `ffmpeg`. Diseñado con una interfaz moderna glassmorphic estilo Apple Music, sincronización de letras a 30 FPS, normalización de volumen ReplayGain (EBU R128), soporte MPRIS D-Bus e instancia única IPC.
 
@@ -58,10 +64,12 @@ sudo apt update
 sudo apt install -y python3 python3-pyqt6 python3-pyqt6.qtmultimedia python3-dbus ffmpeg
 ```
 
-### Instalación mediante Paquete Debian `.deb`
-Descarga la última versión desde [Releases](https://github.com/darwinsin822/sakukelly-linux/releases):
-
+### 📥 Instalación mediante Paquete Debian `.deb` (1 Clic)
+1. **[Descargar sakukelly_6.5.2-1_all.deb aquí](https://github.com/darwinsin822/sakukelly-linux/releases/latest/download/sakukelly_6.5.2-1_all.deb)** *(3.1 MB)*.
+2. Haz doble clic sobre el archivo en tu carpeta de Descargas y presiona **«Instalar paquete»**.
+3. *O desde la terminal en 1 comando:*
 ```bash
+wget https://github.com/darwinsin822/sakukelly-linux/releases/latest/download/sakukelly_6.5.2-1_all.deb
 sudo dpkg -i sakukelly_6.5.2-1_all.deb
 sudo apt install -f  # Para resolver dependencias si fuera necesario
 ```
